@@ -1,2 +1,2 @@
-# CoRNS
-A Python algorithm for Complimentary reserve network selection
+# CoRNS.py
+A Python utility for Complimentary Reserve Network Selection
