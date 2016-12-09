@@ -52,7 +52,8 @@ first row should contain site names, beginning in the second column.
 present at least once. Every site must contain at least one species.
 
 3. Do not include commas, single quotes, or double quotes in any of the cells in
-your CSV files---quotes will be deleted.
+your CSV files---quotes will be deleted and in-text commas will add unnecessary
+columns.
 
 4. The site by species matrix is presence-absence only. Abundance is not taken
 into consideration. Enter ONLY ones and zeros to represent whether a species is
@@ -73,4 +74,7 @@ Jenna E. Dorey
 jedorey@umich.edu
 
 Nelson R. Salinas
+Gerstner Postdoctoral Fellow
+Division of Invertebrate Zoology
+American Museum of Natural History	
 nrsalinas@gmail.com
