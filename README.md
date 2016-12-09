@@ -74,7 +74,11 @@ Jenna E. Dorey
 jedorey@umich.edu
 
 Nelson R. Salinas
+
 Gerstner Postdoctoral Fellow
+
 Division of Invertebrate Zoology
+
 American Museum of Natural History	
+
 nrsalinas@gmail.com
