@@ -5,7 +5,7 @@ CoRNS.py version 1.0 -- 3 November 2016
 CoRNS.py is a Python script for performing a simple greedy-richness algorithm on a site by species presence-absence matrix to select sites to include as part of a reserve network. The method is a complimentary based approach, so the most diverse site will be selected first, followed by the site that adds the greatest number of species considering the taxa that have already been preserved. The process is repeated until all sites have been ordered for selection. In the case that one or more sites add the same number of species, the site that is encountered first is selected. For full description see algorithm 1 in Csuti et al. 1997. Biological Conservation 80(1): 83--97. A second site by species matrix can be optionally provided to assess how well reserves selected for the taxa in the first provided matrix also confer protection for the taxa in the second provided matrix. This could be useful for conservation purposes in assessing whether one organismal groups serves as an effective surrogate group for a second organismal group.
 
 
-The output is a csv file containing the following columns:
+The output (see `my_run.csv` for example) is a csv file containing the following columns:
 
 1. Order -- 1 to n sites. The order in which sites were selected.
 
@@ -52,8 +52,7 @@ first row should contain site names, beginning in the second column.
 present at least once. Every site must contain at least one species.
 
 3. Do not include commas, single quotes, or double quotes in any of the cells in
-your CSV files---quotes will be deleted and in-text commas will add unnecessary
-columns.
+your CSV files---quotes will be deleted and in-text commas will cause problems reading the file.
 
 4. The site by species matrix is presence-absence only. Abundance is not taken
 into consideration. Enter **only** ones and zeros to represent whether a species is
@@ -73,6 +72,8 @@ python corns.py -i angio_matrix.csv -m fern_matrix.csv -o my_run
 ## CONTACT
 
 Jenna E. Dorey  
+Graduate Fellow  
+The New York Botanical Garden  
 jedorey@umich.edu
 
 Nelson R. Salinas  
