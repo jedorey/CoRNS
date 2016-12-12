@@ -1,7 +1,7 @@
 ################################################################################
 ################################################################################
 #
-#    CoRNS.py version 1.0
+#    CoRNS.py version 1.0.1
 #
 #    Copyright (C) 2016  Jenna Dorey and Nelson R. Salinas
 #
@@ -36,7 +36,7 @@ parser.add_argument("-m", dest = "infile2", action = "store", help = "Site by sp
 
 parser.add_argument("-o", dest = "outfile_root", default = outfileRootDefault, action = "store", help = "Root name of output files. If you do not provide a root file name the default is `result`.")
 
-parser.add_argument("-v", action = "version", version = "corns v. 1.0")
+parser.add_argument("-v", action = "version", version = "corns v. 1.0.1")
 
 args = parser.parse_args()
 
