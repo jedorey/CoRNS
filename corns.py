@@ -28,7 +28,7 @@ import os
 today = datetime.datetime.now()
 outfileRootDefault = today.strftime("corns_result_%Y-%m-%d_%H:%M:%S")
 
-parser = argparse.ArgumentParser(description = "CoRNS.py: a Python utility for Complimentary Reserve Selection. The script will run a simple greedy richness algorithm to determine the most diverse site and will then complimentarily add sites based on the diversity composition. Input is a comma delimited site-by-species matrix. The script returns an ordered list of sites to reserve including a running total of the number of species and the percent of the total diversity that are conserved. Optionally provide a site-by-species matrix for a second organismal group to determine what percent of diversity is conserved based on selections for the first group.")
+parser = argparse.ArgumentParser(description = "CoRNS.py: a Python utility for Complementary Reserve Selection. The script will run a simple greedy richness algorithm to determine the most diverse site and will then complementarily add sites based on the diversity composition. Input is a comma delimited site-by-species matrix. The script returns an ordered list of sites to reserve including a running total of the number of species and the percent of the total diversity that are conserved. Optionally provide a site-by-species matrix for a second organismal group to determine what percent of diversity is conserved based on selections for the first group.")
 
 parser.add_argument("-i", required = True, dest = "infile", action = "store", help = "Input file of the site by species matrix in CSV format with species as the row headers and sites as the column headers.")
 
